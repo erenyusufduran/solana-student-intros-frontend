@@ -5,7 +5,7 @@ import { useConnection, useWallet } from "@solana/wallet-adapter-react";
 import * as Web3 from "@solana/web3.js";
 import { Box, Button, FormControl, FormLabel, Input, Textarea } from "@chakra-ui/react";
 
-const STUDENT_INTRO_PROGRAM_ID = "HdE95RSVsdb315jfJtaykXhXY478h53X6okDupVfY9yf";
+const STUDENT_INTRO_PROGRAM_ID = "GaWifTcvFSQnSzbxwB4kbzK2Mixyoviv4dzxXjdhf2zm";
 
 export const Form: FC = () => {
   const { connection } = useConnection();
